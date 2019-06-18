@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    line-height: 1.6em;
+    color: #f4f4f4;
+    background-image: linear-gradient(240deg, #a86046, #4960ba);
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.5em;
+}
+
+.head {
+    font-weight: 100;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #f4f4f4;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #cccccc;
+}
+
+.form input {
+    width: 20rem;
+    height: 2rem;
+    border: none;
+}
+
+.btn {
+    border: none;
+    display: block;
+    margin-top: 15px;
+    height: 5vh;
+    width: 5rem;
+    color: #f4f4f4;
+    background: #040404;
+}
+
+.kilometre {
+    margin-top: 15px;
+    width: 25rem;
+    height: 10vh;
+    background: #ff6854;
+    border: 1px solid #ff6854;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.centimetre {
+    margin-top: 15px;
+    width: 25rem;
+    height: 10vh;
+    background: #722bcf;
+    border: 1px solid #722bcf;
+    border-radius: 5px;display: flex;
+    justify-content: center;
+}
+
+.millimetre {
+    margin-top: 15px;
+    width: 25rem;
+    height: 10vh;
+    background: #16d6f0;
+    border: 1px solid #16d6f0;
+    border-radius: 5px;display: flex;
+    justify-content: center;
+}
+
+.feets {
+    margin-top: 15px;
+    width: 25rem;
+    height: 10vh;
+    background: #d3c71a;
+    border: 1px solid #d3c71a;
+    border-radius: 5px;
+display: flex;
+    justify-content: center;}
+
+.inches {
+    margin-top: 15px;
+    width: 25rem;
+    height: 10vh;
+    background: #07f026;
+    border: 1px solid #07f026;display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
